@@ -7,5 +7,6 @@
 tuple = (10,29.20,'Kodnest',True,10,29.20)
 print(tuple, type(tuple))
 
-tuple.append(400)
-print(tuple)
+#  Interview Question Singleton 
+tup = (10,)
+print(tuple, type(tup))
