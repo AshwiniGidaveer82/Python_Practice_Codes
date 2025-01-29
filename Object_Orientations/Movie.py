@@ -13,7 +13,7 @@ class Movie:
 
         if self.is_watched:
 
-            status = "Watched" 
+            status = "Watched"  
 
         else:
 
