@@ -6,5 +6,4 @@ def wordPattern(self, pattern: str, s: str) -> bool:
             len(set(s)) ==
             len(set(zip_longest(pattern,s))))
 
-
 print(wordPattern("abba", "dog cat cat dog")) 
