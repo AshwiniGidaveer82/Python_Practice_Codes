@@ -4,7 +4,7 @@ def isPowerOfThree(n: int) -> bool:
 
     while n % 3 == 0:
         n //= 3 
-    return n == 1  # If reduced to 1, it's a power of 3
+    return n == 1  
 
 
 test_numbers = [27, 0, -1, 9, 81, 10, 243]
