@@ -1,4 +1,6 @@
+import threading
 import time
+print(threading.current_thread())
 li1 = [1,2,3,4,5,6]
 li2 = ['a','b','c','d','e','f']
 
