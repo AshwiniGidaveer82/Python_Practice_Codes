@@ -3,8 +3,8 @@ def isSubsequence(s: str, t: str) -> bool:
     
     while i < len(s) and j < len(t):
         if s[i] == t[j]: 
-            i += 1
-        j += 1 
+            i = i + 1
+        j = j + 1
     
     return i == len(s) 
 
