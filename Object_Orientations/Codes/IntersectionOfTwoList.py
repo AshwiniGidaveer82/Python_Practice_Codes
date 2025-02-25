@@ -21,8 +21,6 @@ def getIntersectionNode(headA: ListNode, headB: ListNode) -> ListNode:
 common = ListNode(8, ListNode(10))
 
 headA = ListNode(4, ListNode(1, common))
-
-
 headB = ListNode(5, ListNode(6, ListNode(1, common)))
 
 

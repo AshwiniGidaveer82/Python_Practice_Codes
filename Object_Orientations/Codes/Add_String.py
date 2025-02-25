@@ -1,5 +1,6 @@
 def addStrings(num1: str, num2: str) -> str:
-    i, j = len(num1) - 1, len(num2) - 1 
+    i = len(num1) - 1
+    j = len(num2) - 1 
     carry = 0
     result = []
     
@@ -9,13 +10,12 @@ def addStrings(num1: str, num2: str) -> str:
         
         total = digit1 + digit2 + carry
         carry = total // 10
-        result.append(str(total % 10))  # Store the last digit of the sum
+        result.append(str(total % 10)) 
         
         i -= 1  # Move left in num1
         j -= 1  # Move left in num2
     
-    return ''.join(result[::-1])  # Reverse the result list and return as string
+    return ''.join(result[::-1])  
 
-# Example test cases
 print(addStrings("11", "123"))  # Output: "134"
 print(addStrings("0", "0"))  # Output: "0"
