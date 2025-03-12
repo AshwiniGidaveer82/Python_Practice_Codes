@@ -3,4 +3,4 @@ def countBits(n):
 
 
 print(countBits(2))  # Output: [0, 1, 1]
-print(countBits(5))  # Output: [0, 1, 1, 2, 1, 2]
+print(countBits(5))  # Output: [0, 1, 1, 2, 1, 2] 
