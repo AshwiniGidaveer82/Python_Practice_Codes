@@ -11,6 +11,5 @@ def tribonacci(n):
     
     return tn
 
-
 print(tribonacci(4))   # Output: 4
 print(tribonacci(25))  # Output: 1389537
