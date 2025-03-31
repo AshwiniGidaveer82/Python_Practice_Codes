@@ -11,8 +11,6 @@ def is_valid(s):
                 return False
         else:
             stack.append(char)
-    
-    
     return not stack
 
 print(is_valid("()"))       # Output: True
