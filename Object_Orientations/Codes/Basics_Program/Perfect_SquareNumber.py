@@ -9,7 +9,8 @@ def is_perfect_square(n):
 
 
 n = int(input("Enter a number: "))
-if is_perfect_square(n):
-    print(f"{n} is a perfect square.")
-else:
-    print(f"{n} is NOT a perfect square.")
+# if is_perfect_square(n):
+#     print(f"{n} is a perfect square.")
+# else:
+#     print(f"{n} is NOT a perfect square.")
+print(is_perfect_square(n))
