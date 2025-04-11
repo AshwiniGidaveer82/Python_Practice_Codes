@@ -2,7 +2,6 @@ def trimMean(arr):
     arr.sort()
     n = len(arr)
     remove_count = int(n * 0.05)
-
     trimmed = arr[remove_count : n - remove_count]
     return sum(trimmed) / len(trimmed)
 
