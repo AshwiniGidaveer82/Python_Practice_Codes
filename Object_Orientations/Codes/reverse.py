@@ -5,3 +5,4 @@ def reverse(s):
 
 s = str(input())
 print(reverse(s))
+print(reverse("the sky is blue")) 
