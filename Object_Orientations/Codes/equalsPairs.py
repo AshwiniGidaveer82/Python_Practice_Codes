@@ -2,7 +2,7 @@ from typing import List
 
 class Solution:
     def equalPairs(self, grid: List[List[int]]) -> int:
-        n = len(grid)
+        len(grid)
         count = 0
 
         columns = list(zip(*grid))
