@@ -5,7 +5,7 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        insert_pos = 0  # Position to insert the next non-zero element
+        insert_pos = 0  
 
         # Move non-zero elements to the front
         for num in nums:
@@ -17,6 +17,7 @@ class Solution:
         while insert_pos < len(nums):
             nums[insert_pos] = 0
             insert_pos += 1
+            
 nums = [0, 1, 0, 3, 12]
 Solution().moveZeroes(nums)
 print(nums)  # Output: [1, 3, 12, 0, 0]
