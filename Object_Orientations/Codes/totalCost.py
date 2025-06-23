@@ -34,9 +34,6 @@ class Solution:
 
         return total
 
-# -----------------------------------
-# 🧪 Input Handling & Test
-# -----------------------------------
 if __name__ == "__main__":
     # Example input: 17 12 10 2 7 2 11 20 8
     costs = list(map(int, input("Enter costs (space-separated): ").split()))
