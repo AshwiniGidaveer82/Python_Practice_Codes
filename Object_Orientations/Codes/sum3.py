@@ -20,9 +20,6 @@ class Solution:
         backtrack(1, [], n)
         return result
 
-# --------------------------------------
-# 🧪 Input + Execution Code
-# --------------------------------------
 if __name__ == "__main__":
     k = int(input())
     n = int(input())

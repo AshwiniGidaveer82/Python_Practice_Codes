@@ -17,9 +17,7 @@ class Solution:
 
         return prev1
 
-# ---------------------------
-# Main block to take input
-# ---------------------------
+
 
 if __name__ == "__main__":
     nums = list(map(int, input().split()))
